@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll To Top</title>
+</head>
+
+<style>
+    body {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* .container {
+
+        height: 100vh;
+        width: 100%;
+    } */
+
+    .nav {
+        width: 100%;
+        height: 10%;
+        background-color: #272727;
+        text-align: center;
+    }
+
+    .body {
+        height: 2200px;
+    }
+
+    .scrolltop {
+        display: none;
+        border: none;
+        background-color: white;
+        color: black;
+        font-size: 2rem;
+        margin: 0;
+        padding: 10px 20px;
+        position: fixed;
+        bottom: 4%;
+        right: 4%;
+
+        transition: all .2s;
+    }
+
+    .scrolltop:hover {
+        background-color: gray;
+        color: white;
+    }
+
+    .scrolltop:active {
+        background-color: black;
+        color: white;
+        transform: translateY(10px);
+    }
+</style>
+
+<body>
+
+    <div class="nav">
+        <h1 style="color: white; padding-top: 10px; margin: 0;">Scroll To Top</h1>
+    </div>
+    <div class="body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit ipsam voluptatum distinctio
+        culpa expedita dolorem ut eos voluptatem dolor. Culpa aut at soluta alias, ut ratione tenetur error
+        voluptate iste fugiat sequi nihil provident officiis eos veritatis! Nemo culpa consequatur sequi id possimus
+        omnis, itaque excepturi sit maiores aspernatur sint saepe ullam voluptatum, soluta et officiis molestiae
+        quidem. Totam dicta in labore nostrum modi, amet esse? Aspernatur ea numquam, commodi debitis odio cumque
+        eaque odit laboriosam earum inventore velit, iste placeat doloremque alias praesentium! Dolor blanditiis
+        illo ipsa fuga optio magni? Dicta corrupti quos molestias odio rerum eius? Fugiat, praesentium.</div>
+
+
+    <button class="scrolltop" id="scrollTop">^</button>
+
+    <script src="./scripts.js"></script>
+</body>
+
+</html>
